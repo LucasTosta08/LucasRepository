@@ -1,0 +1,37 @@
+body {
+    background-image: url("animesnovo.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: bottom 60px top 40px;
+  }
+
+  body::after {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); 
+    z-index: -1;
+  }
+
+  .light {
+    color: rgb(18, 212, 86);
+  }
+
+  .duvida{
+    color: rgb(17, 82, 187);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 90px;
+  }
+  
+  footer {
+    margin-top: 100px;
+  }
+
+  #btnCancelar{
+    margin-left: 50px;
+  }

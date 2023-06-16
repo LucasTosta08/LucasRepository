@@ -1,2 +1,1 @@
-#Github
-arquivo da aula de git
+Repositorio de demonstração de alguns projetos meus
